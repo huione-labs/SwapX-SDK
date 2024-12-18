@@ -1,0 +1,15 @@
+{
+	"name": "swapx-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build:sdk": "pnpm -r build"
+	},
+	"dependencies": {
+		"@swapx/sdk-core": "workspace:^",
+		"@swapx/v2-sdk": "workspace:^",
+		"@swapx/v3-periphery": "workspace:^",
+		"@swapx/v3-sdk": "workspace:^"
+	}
+
+}
